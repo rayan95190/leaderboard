@@ -1,0 +1,43 @@
+{
+  "name": "npc-ai-voice-system",
+  "version": "1.0.0",
+  "description": "Advanced NPC AI system with voice interaction for FiveM",
+  "main": "server/main.lua",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"This is a FiveM resource, start your FiveM server\"",
+    "voice-server": "node voice-server/server.js"
+  },
+  "keywords": [
+    "fivem",
+    "npc",
+    "ai",
+    "voice",
+    "ollama",
+    "speech-recognition",
+    "text-to-speech"
+  ],
+  "author": "rayan95190",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "optionalDependencies": {
+    "@google-cloud/speech": "^6.0.0",
+    "@google-cloud/text-to-speech": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayan95190/leaderboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rayan95190/leaderboard/issues"
+  },
+  "homepage": "https://github.com/rayan95190/leaderboard#readme"
+}
