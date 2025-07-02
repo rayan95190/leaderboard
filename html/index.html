@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPC AI Voice Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="voice-status" class="hidden">
+            <div class="status-indicator">
+                <div class="pulse-ring"></div>
+                <div class="pulse-dot"></div>
+            </div>
+            <span id="status-text">Écoute...</span>
+        </div>
+        
+        <div id="conversation-display" class="hidden">
+            <div id="conversation-content"></div>
+        </div>
+        
+        <div id="debug-info" class="hidden">
+            <h3>Debug Information</h3>
+            <div id="debug-content"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="voice.js"></script>
+</body>
+</html>
